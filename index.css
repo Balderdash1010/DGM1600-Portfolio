@@ -54,7 +54,7 @@ a {
 /* welcome section */
 #welcome-section {
     background: lightgray;
-    height: 1146px;
+    height: 100vh;
     width: auto;
     display: flex;
     flex-direction: column;
