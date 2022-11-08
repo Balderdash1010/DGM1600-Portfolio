@@ -86,9 +86,10 @@ a {
 .image{
     margin-top: 1rem;
     margin-bottom: 5rem;
+    height: auto;
 }
 .image img{
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 /* project section */
