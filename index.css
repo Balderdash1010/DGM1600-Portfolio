@@ -42,14 +42,14 @@ a {
     display: block;
     color: rgb(209 209 214);
     padding: 1.5rem;
-    font-size: xx-large;
+    font-size: 40px;
     margin-right: 1rem;
 }
 
 /* pseudo class */
 .nav-list a:hover {
     color: rgb(242 242 247);
-    font-size: xxx-large;
+    font-size: 45px;
 }
 
 /* welcome section */
