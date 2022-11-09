@@ -10,13 +10,13 @@ html {
 
 @media (max-width: 1200px) {
     html {
-        font-size: 60%;
+        font-size: 80%;
     }
 }
 
 @media (max-width: 980px) {
     html {
-        font-size: 40%;
+        font-size: 60%;
     }
 }
 
@@ -28,11 +28,12 @@ a {
 /* navigation */
 #navbar {
     width: 100%;
+    height: 100px;
     background-color: black;
 }
 .nav-list {
     display: flex;
-    justify-content: right;
+    justify-content:center;
     list-style-type: none;
     font-family: 'Montserrat', sans-serif;
 }
@@ -48,6 +49,7 @@ a {
 /* pseudo class */
 .nav-list a:hover {
     color: rgb(242 242 247);
+    font-size: xxx-large;
 }
 
 /* welcome section */
