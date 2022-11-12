@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: tan;
+}
+
+/* navigation */
+#navbar {
+    width: 100%;
+    background-color: black;
+}
+.nav-list {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-list a {
+    display: block;
+    color: rgb(209 209 214);
+    padding: 2rem;
+    font-size: xx-large;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    color: rgb(242 242 247);
+}
+
+.seniority {
+    font-size: xx-large;
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+    padding: 1.5rem;
+    background-color: rgb(252, 210, 132);
+    justify-content: center;
+    display: flex;
+}
+
+.missedVotes {
+    font-size: xx-large;
+    font-family: 'roboto', sans-serif;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+    margin: 0;
+    background-color: rgb(252, 210, 132);
+}
+
+h3 {
+    padding-top: 1.5rem;
+}
+
+button {
+    justify-content: center;
+    font-family: 'roboto', sans-serif;
+    margin-left:3rem;
+    margin: 1rem;
+    width: 200px;  
+    height: 60px;
+    border-radius: 1rem;
+    font-size: x-large;
+    padding-top: 1rem;
+    background-color: rgb(252, 210, 132)
+}
+
+.senators {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+figure {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: .5em;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'roboto', sans-serif;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Tangerine', cursive;
+    font-weight: 700;
+    font-size: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem
+}
+
+h3{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem
+}
+
+footer {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    font-size: x-large;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white
+}
