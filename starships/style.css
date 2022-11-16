@@ -79,12 +79,12 @@ section {
 img {
   height: 100vh;
   display: flex;
-  justify-content: center;
+  position: relative;
   padding: 10rem;
 }
 
 .navlist {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
