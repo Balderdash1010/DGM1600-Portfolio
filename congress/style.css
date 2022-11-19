@@ -3,7 +3,6 @@
     box-sizing: border-box;
 }
 body {
-    background-color: tan;
 }
 
 /* navigation */
@@ -36,7 +35,7 @@ body {
     font-family: 'roboto', sans-serif;
     margin: 0;
     padding: 1.5rem;
-    background-color: rgb(252, 210, 132);
+    background-color:;
     justify-content: center;
     display: flex;
 }
@@ -47,7 +46,7 @@ body {
     padding-left: 5rem;
     padding-bottom: 3rem;
     margin: .5rem;
-    background-color: rgb(252, 210, 132);
+    background-color:;
 }
 
 h3 {
@@ -64,7 +63,7 @@ button {
     border-radius: 1rem;
     font-size: x-large;
     padding-top: 1rem;
-    background-color: rgb(252, 210, 132)
+    background-color:;
 }
 
 .senators {
