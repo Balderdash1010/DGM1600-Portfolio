@@ -58,21 +58,19 @@ a {
     height: 100vh;
     width: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: center
 }
 
 .container h1 {
     font-weight: 400;
-    font-size: 5rem;
+    font-size: 8vh;
     letter-spacing: 8px;
     margin-bottom: 1rem;
     font-family: 'Roboto', sans-serif;
 }
 
 .container h2 {
-    font-size: 4rem;
+    font-size: 6vh;
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
 }
@@ -88,10 +86,10 @@ a {
 .image{
     margin-top: 1rem;
     margin-bottom: 5rem;
-    height: auto;
 }
 .image img{
-    border-radius: 30%;
+    border-radius: 3%;
+    height: 50vh;
 }
 
 /* project section */
