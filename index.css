@@ -36,6 +36,7 @@ a {
     justify-content:center;
     list-style-type: none;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
 }
 
 .nav-list a {
