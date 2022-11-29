@@ -111,7 +111,7 @@ figure{
 }
 
 #projects h3 {
-    font-size: 4rem;
+    font-size: 6vh;
     color: black;
     font-family: 'Roboto', sans-serif;
 }
@@ -141,7 +141,7 @@ figcaption {
     align-items: center;
     height: 320px;
     background-color: #565656;
-    font-size: 3rem;
+    font-size: 4.5vh;
     padding-top: 10px;
 }
 
