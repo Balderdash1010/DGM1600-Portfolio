@@ -55,7 +55,9 @@ a {
 
 /* welcome section */
 #welcome-section {
-    background: lightgray;
+    background-image: url(Images/Catan\ background.jpg);
+    background-size: 100%;
+    background-position: center;
     height: 100vh;
     width: auto;
     display: flex;
