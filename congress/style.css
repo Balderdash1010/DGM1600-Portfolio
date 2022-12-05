@@ -88,9 +88,9 @@ figcaption {
 }
 
 h1 {
-    font-family: 'Tangerine', cursive;
+    font-family:
     font-weight: 700;
-    font-size: 200px;
+    font-size: 150px;
     display: flex;
     justify-content: space-around;
     margin: 3rem
