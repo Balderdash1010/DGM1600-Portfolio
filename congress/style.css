@@ -33,20 +33,19 @@ body {
 .seniority {
     font-size: xx-large;
     font-family: 'roboto', sans-serif;
-    margin: 0;
-    padding: 1.5rem;
-    background-color:;
-    justify-content: center;
+    margin: 7rem;
+    justify-content: left;
     display: flex;
 }
 
 .missedVotes {
     font-size: xx-large;
     font-family: 'roboto', sans-serif;
-    padding-left: 5rem;
+    justify-content: center;
+    padding-left: 9rem;
     padding-bottom: 3rem;
     margin: .5rem;
-    background-color:;
+
 }
 
 h3 {
@@ -63,7 +62,7 @@ button {
     border-radius: 1rem;
     font-size: x-large;
     padding-top: 1rem;
-    background-color:;
+
 }
 
 .senators {
@@ -88,7 +87,7 @@ figcaption {
 }
 
 h1 {
-    font-family:
+
     font-weight: 700;
     font-size: 150px;
     display: flex;
