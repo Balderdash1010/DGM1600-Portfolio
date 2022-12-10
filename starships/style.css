@@ -5,6 +5,8 @@
 
 body {
   background-image: url(/Images/starBackground.jpeg);
+  overflow: hidden;
+  height: 100vh;
 }
 
 /* navigation */
@@ -54,15 +56,13 @@ footer {
 
 .nav {
   margin-left: 2em;
-  font-size: 30px;
+  font-size: 18px;
 }
 
-section {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+.shipViewer {
+  text-align: center;
+  width: 80%;
+  max-width: 1200px;
 }
 
 .box {
@@ -79,16 +79,19 @@ section {
 }
 
 img {
-  height: 100vh;
   display: flex;
-  position: relative;
-  padding: 10rem;
+  justify-content: center;
+  padding: 2rem;
+  width: 100%;
 }
 
 .navlist {
-  font-size: 3rem;
+  font-size: 24px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  overflow-x: scroll;
+  height: 75%;
+  width: 400px;
 }
 
 footer {
@@ -98,4 +101,10 @@ footer {
   font-size: x-large;
   font-family: "Source Sans Pro", sans-serif;
   color: white;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }

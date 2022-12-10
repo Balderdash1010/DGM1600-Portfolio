@@ -6,7 +6,6 @@ const main = document.querySelector("#main");
 const mainHeader = document.createElement('header')
 document.body.insertBefore(mainHeader, main)
 
-
 // filter buttons //
 const allButton = document.createElement('button')
 allButton.textContent = 'All Characters'
@@ -61,3 +60,4 @@ function populateDOM(characters) {
 })
 }
 
+populateDOM(people)

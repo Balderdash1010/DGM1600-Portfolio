@@ -2,8 +2,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {
-}
 
 /* navigation */
 #navbar {
@@ -48,10 +46,6 @@ body {
 
 }
 
-h3 {
-    padding-top: 1.5rem;
-}
-
 button {
     justify-content: center;
     font-family: 'roboto', sans-serif;
@@ -87,7 +81,6 @@ figcaption {
 }
 
 h1 {
-
     font-weight: 700;
     font-size: 150px;
     display: flex;
@@ -95,7 +88,8 @@ h1 {
     margin: 3rem
 }
 
-h3{
+.missed {
+    padding-top: 1.5rem;
     display: flex;
     justify-content: space-around;
     margin: 1rem
@@ -108,4 +102,43 @@ footer {
     font-size: x-large;
     font-family: 'Source Sans Pro', sans-serif;
     color: black
+}
+
+.rep {
+    border: solid 3px red;
+}
+
+.dem {
+    border: solid 3px blue;
+}
+
+.ind {
+    border: solid 3px green;
+}
+
+.mr-1 {
+    margin-right: 1.5rem;
+    margin-left: 2rem;
+}
+
+.filter {
+    padding-left: 4rem;
+    font-size: 32px;
+    display: flex;
+    justify-content: space-around;
+}
+
+input[type=checkbox] {
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
 }
