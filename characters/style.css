@@ -30,6 +30,8 @@ body {
 
 .nav-list a:hover {
     color: rgb(242 242 247);
+    font-weight: bold;
+    transition: ease-in-out;
 }
 
 header {

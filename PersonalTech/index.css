@@ -130,3 +130,29 @@ footer p {
     font-size: large;
     color: black;
 }
+
+#navbar {
+    width: 100%;
+    background-color: black;
+}
+.nav-list {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-list a {
+    display: block;
+    color: rgb(209 209 214);
+    padding: 1.5rem;
+    padding-bottom: 3rem;
+    font-size: xx-large;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    color: rgb(242 242 247);
+    transition: ease-in-out;
+}

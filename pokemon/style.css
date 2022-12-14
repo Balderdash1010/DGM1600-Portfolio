@@ -31,6 +31,8 @@ a {
 
 .nav-list a:hover {
     color: rgb(242 242 247);
+    font-weight: bold;
+    transition: ease-in-out;
 }
 
 h1 {
@@ -105,8 +107,10 @@ button {
   border-width: 5px;
   transform: rotateY(180deg);
   font-size: 100%;
-  line-height: 3em;
+  line-height: 1.5rem;
   text-align: center;
+  padding: 10px;
+  align-items: center;
 }
 
 figure img {
@@ -121,10 +125,8 @@ figcaption {
 
 li {
     text-align: left;
-    margin-left: 1rem;
+    
     font-size: small;
-    margin-bottom: -1.5rem;
-    margin-right:rem;
 }
 
 .typeSelect{

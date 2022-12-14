@@ -4,9 +4,9 @@
 }
 
 body {
-  background-image: url(/Images/starBackground.jpeg);
+  background: black;
   overflow: hidden;
-  height: 100vh;
+  height: 80%;
 }
 
 /* navigation */
@@ -32,6 +32,8 @@ body {
 
 .nav-list a:hover {
   color: rgb(242 242 247);
+  font-weight: bold;
+    transition: ease-in-out;
 }
 
 header {
@@ -42,7 +44,7 @@ h1{
   font-size: 100px;
   margin: 3rem;
   padding: 1rem;
-  color: black;
+  color: gold;
   font-weight: 1000;
 }
 

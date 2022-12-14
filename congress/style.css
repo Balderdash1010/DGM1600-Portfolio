@@ -26,21 +26,36 @@
 
 .nav-list a:hover {
     color: rgb(242 242 247);
+    font-weight: bold;
+    transition: ease-in-out;
+}
+
+.facts{
+    border: solid 3px;
+    width: 80%;
+    margin-left: 200px;
+    padding: 1rem;
+}
+
+h2 {
+    font-size: xx-large;
+    font-family: 'roboto', sans-serif;
+    margin-left: 10rem;
+    display: flex;
 }
 
 .seniority {
-    font-size: xx-large;
+    font-size: x-large;
+    font-weight: 400;
     font-family: 'roboto', sans-serif;
-    margin: 7rem;
-    justify-content: left;
+    margin-left: 10rem;
     display: flex;
 }
 
 .missedVotes {
     font-size: xx-large;
     font-family: 'roboto', sans-serif;
-    justify-content: center;
-    padding-left: 9rem;
+    padding-left: 9.5rem;
     padding-bottom: 3rem;
     margin: .5rem;
 
@@ -91,8 +106,8 @@ h1 {
 .missed {
     padding-top: 1.5rem;
     display: flex;
-    justify-content: space-around;
-    margin: 1rem
+    justify-content: left;
+    margin: 0px;
 }
 
 footer {
@@ -123,6 +138,7 @@ footer {
 
 .filter {
     padding-left: 4rem;
+    padding-top: 25px;
     font-size: 32px;
     display: flex;
     justify-content: space-around;

@@ -29,6 +29,8 @@ body{
 
 .nav-list a:hover {
     color: rgb(242 242 247);
+    font-weight: bold;
+    transition: ease-in-out;
 }
 
 header {
@@ -65,9 +67,9 @@ main {
 
 footer {
     text-align: center;
-    padding-top: 4rem;
-    padding-bottom: 1rem;
-    font-size: x-large;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: white
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  font-size: x-large;
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
 }
