@@ -96,10 +96,34 @@ a {
 }
 
 /* project section */
+figure::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 50px;
+    color:white;
+    content: "Click Here";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scaleX(0);
+    transform-origin: top;
+    transition: opacity .5s ease-in;
+}
+
 figure{
-    border-style: solid;
-    border-width: 10px;
-    border-color: black;
+    position: relative;
+    filter: drop-shadow(0 0 0.75rem gray);
+}
+
+figure:hover::after{
+    transform: scaleX(1);
+    opacity: 2;
 }
 
 #projects {
@@ -121,7 +145,8 @@ figure{
 .projects-grid {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;margin: 2rem;
+
 }
 
 .project-tile {
