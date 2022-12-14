@@ -115,7 +115,7 @@ function populateCardFront(pokemon) {
 
   const pokeImg = document.createElement("img");
   if (pokemon.id === 2022) {
-    pokeImg.src = "../images/masterBall.png";
+    pokeImg.src = "../images/PokeBall.png";
   } else {
     pokeImg.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemon.id}.png`;
   }

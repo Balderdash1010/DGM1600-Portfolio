@@ -44,13 +44,14 @@ h1 {
 button {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 1rem;
     margin-left: 8rem;
     width: 500px;  
     height: 70px;
     border-radius: 1rem;
     font-size: xx-large;
-    padding-top: 1rem;
+    
     background-color: #ffcb05;
 }
 
@@ -90,7 +91,7 @@ button {
 }
 
 .front {
-  border: #3c5aa6;
+  border: #2b0d7a;
   border-style: solid;
   border-radius: 1rem;
   border-width: 5px;
@@ -98,7 +99,7 @@ button {
 
 .back {
   background: #2a75bb;
-  border: #ffcb05;
+  border: #ecb223;
   border-style: solid;
   border-radius: 1rem;
   border-width: 5px;
@@ -135,6 +136,6 @@ li {
     height: 70px;
     border-radius: 1rem;
     font-size: xx-large;
-    padding-top: 1rem;
+    text-align: center;
     background-color: #ffcb05;
 }
