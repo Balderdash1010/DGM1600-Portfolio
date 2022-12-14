@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background: #5db9ff;
+}
+
 a {
     text-decoration: none;
     color: #f0f0f0;
@@ -51,10 +55,12 @@ button {
     margin-left: 8rem;
     width: 500px;  
     height: 70px;
-    border-radius: 1rem;
+    border-radius: 5px;
     font-size: xx-large;
-    
+    border: solid;
+    border-color: #363b81;
     background-color: #ffcb05;
+    border-width: 5px;
 }
 
 .pokeGrid {
@@ -136,8 +142,11 @@ li {
     margin-left: 8rem;
     width: 500px;  
     height: 70px;
-    border-radius: 1rem;
+    border-radius: 5px;
     font-size: xx-large;
     text-align: center;
     background-color: #ffcb05;
+    border: solid;
+    border-color: #363b81;
+    border-width: 5px;
 }
