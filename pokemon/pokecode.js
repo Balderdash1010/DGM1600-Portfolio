@@ -251,21 +251,13 @@ function filterPokemonByType(selectedtype) {
 }
 
 await loadPokemon(0, 151);
-console.log (loadedPokemon)
 
 const typeSelect = document.getElementById('selections')
 
-typeSelect.addEventListener('change', (event) => {
-  const usersTypeChoice = event.target.value.toLowerCase()
-  
-  const pokemonByType = filterPokemonByType(usersTypeChoice)
-  removeChildren(pokeGrid)
-  pokemonByType.forEach((singlePokemon) => populatePokeCard(singlePokemon))
-})
 function reloadPokemon (){
-  const typeSelect = document.getElementById('selections')
   const usersTypeChoice = typeSelect.value.toLowerCase()
   const pokemonByType = filterPokemonByType(usersTypeChoice)
   removeChildren(pokeGrid)
   pokemonByType.forEach((singlePokemon) => populatePokeCard(singlePokemon))
 }
+typeSelect.addEventListener('change', reloadPokemon)
