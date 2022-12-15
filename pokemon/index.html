@@ -20,13 +20,13 @@
    <header>
        <h1><img src="/Images/pokeLogo.png"/></h1>
     </header>
-    <select class='typeSelect'>
-      <option>Choose Pokemon Type (All)</option>
+    <select class='typeSelect' id="selections">
+      <option value="all">Choose Pokemon Type (All)</option>
       <option>Grass</option>
       <option>Water</option>
       <option>Fire</option>
       <option>Bug</option>
-      <option>Flying</option>
+      <option value="flying">Flying</option>
       <option>Normal</option>
       <option>Poison</option>
       <option>Electric</option>
@@ -41,7 +41,7 @@
     <main>
         <div class="pokeGrid"></div>
     </main>
-    <script src="/data/pokecode.js" type="module"></script>
+    <script src="pokecode.js" type="module"></script>
     <footer></footer> 
 </body>
 </html>
