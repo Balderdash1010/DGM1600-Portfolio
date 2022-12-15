@@ -35,29 +35,41 @@
     width: 80%;
     margin-left: 200px;
     padding: 1rem;
-}
-
-h2 {
-    font-size: xx-large;
-    font-family: 'roboto', sans-serif;
-    margin-left: 10rem;
     display: flex;
+    justify-content: center;
+    
 }
 
-.seniority {
-    font-size: x-large;
-    font-weight: 400;
-    font-family: 'roboto', sans-serif;
-    margin-left: 10rem;
-    display: flex;
-}
-
-.missedVotes {
+.senior {
     font-size: xx-large;
     font-family: 'roboto', sans-serif;
     padding-left: 9.5rem;
     padding-bottom: 3rem;
-    margin: .5rem;
+    margin-top: 1em;
+    margin-left: -3em;
+    margin-right: 1em;
+    margin-bottom: -1.5em;
+}
+
+h5{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+h2{
+    font-weight: 1000;
+    font-size: 30px; 
+}
+
+.missedVotes {
+    font-size: 25px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    padding-left: 9.5rem;
+    padding-bottom: 3rem;
+    margin-left: -2em;
+    margin-right: .5em;
+    margin-bottom: -1.5em;
 
 }
 
