@@ -54,6 +54,7 @@ footer {
 
 .mainContainer {
   display: flex;
+ margin-bottom: -30rem;
 }
 
 .nav {
@@ -64,7 +65,7 @@ footer {
 .shipViewer {
   text-align: center;
   width: 80%;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 .box {
@@ -92,7 +93,7 @@ img {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   overflow-x: scroll;
-  height: 75%;
+  height: 55%;
   width: 400px;
 }
 
