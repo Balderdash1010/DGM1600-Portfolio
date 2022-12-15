@@ -118,6 +118,9 @@ button {
   padding: 10px;
   align-items: center;
 }
+.cardFace back{
+  margin-bottom: 5rem;
+}
 
 figure img {
   width: 190px;
@@ -149,4 +152,10 @@ li {
     border: solid;
     border-color: #363b81;
     border-width: 5px;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: x-large;
+  font-family: 'Source Sans Pro', sans-serif;
 }
